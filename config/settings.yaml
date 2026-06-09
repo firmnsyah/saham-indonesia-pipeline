@@ -1,0 +1,11 @@
+# Konfigurasi non-rahasia (host, path, dll).
+# JANGAN taruh password di sini — itu tugas .env
+project: saham-indonesia
+database:
+  host: localhost
+  port: 5432
+  name: belajar
+paths:
+  raw: data/raw
+  staging: data/staging
+  processed: data/processed

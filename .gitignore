@@ -1,0 +1,20 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Secrets & config lokal
+.env
+*.local
+
+# Data & output (jangan masuk repo)
+data/
+logs/
+*.csv
+*.parquet
+
+# OS / editor
+.DS_Store
+.vscode/
